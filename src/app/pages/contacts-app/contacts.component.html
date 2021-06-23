@@ -1,0 +1,5 @@
+<div class="contact-page">
+        <div class="title">Contacts:</div>
+        <app-contact-filter [filterBy]="filterBy" (onFilter)="onSetFilter($event)"></app-contact-filter>
+        <app-contact-list [contacts]="contacts"></app-contact-list>
+</div>

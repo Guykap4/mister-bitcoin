@@ -1,0 +1,38 @@
+.login-page {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        input {
+            font-size: 20px;
+        }
+
+        div>*:first-child {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: rgb(27, 27, 68);
+            font-size: 20px;
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            color: #EEEEEE;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}

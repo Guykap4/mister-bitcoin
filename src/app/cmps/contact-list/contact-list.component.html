@@ -1,0 +1,9 @@
+<div class="contact-list">
+    <div class="contact-preview" [routerLink]="['/contact','edit']">
+        <img src="../../../assets/img/plus-icon.png" />
+        <div class="specs">
+            <span>ADD NEW</span>
+        </div>
+    </div>
+    <app-contact-preview *ngFor="let contact of contacts" [contact]="contact"></app-contact-preview>
+</div>

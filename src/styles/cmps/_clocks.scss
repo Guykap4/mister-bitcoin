@@ -1,0 +1,32 @@
+.clock {
+    padding: 30px;
+    width: 500px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .clock-img {
+        height: 300px;
+        width: 300px;
+        background-position: 50% 50%;
+        background-size: contain;
+    }
+
+    .clock-time {
+        font-size: 50px;
+    }
+
+    &.clock-dark {
+        color: #EEEEEE;
+        background-color: rgb(22, 22, 22);
+    }
+}
+
+.count-down {
+
+    .red {
+        color: red;
+    }
+}

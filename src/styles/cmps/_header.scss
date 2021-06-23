@@ -1,0 +1,76 @@
+.header {
+    position: relative;
+    font-family: Livvic;
+    font-weight: 600;
+    height: 700px;
+    padding-top: 70px;
+    background-color: #014D56;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+
+        .logo {
+            font-size: 40px;
+            margin-right: 70px;
+        }
+
+        .nav-links {
+            flex: 1;
+            display: flex;
+            gap: 44px;
+            font-size: 18px;
+        }
+
+        button {
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            background-color: unset;
+            font-family: Livvic;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 50px;
+            height: 49px;
+            width: 154px;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+
+        .title {
+            margin-top: 160px;
+            max-width: 550px;
+            text-align: left;
+            line-height: 1;
+            font-size: 100px;
+
+            span {
+                color: #F67E7E;
+            }
+        }
+
+        .write {
+            width: 440px;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+
+    .img1 {
+        width: 200px;
+        position: absolute;
+        top: calc(50% - 75px);
+        left: -100px;
+    }
+
+    .img2 {
+        width: 350px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

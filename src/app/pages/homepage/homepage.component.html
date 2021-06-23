@@ -1,0 +1,24 @@
+<div class="homepage">
+    <div class="user">
+        <img [src]="user.img" />
+        <div>
+            Welcome, <span>{{user.name}}</span>
+        </div>
+        <div>
+            Balance: <span>{{user.coins}} Bitcoins</span>
+        </div>
+    </div>
+    <div class="bitcoin">
+        <div>
+            Current Bitcoin Statistics:
+        </div>
+        <div>
+            Price: {{coinDesc?.price}}<span [innerHtml]='coinDesc?.symbol'></span>
+        </div>
+        <!-- price: {{price?.rate_float + price?.symbol |async|json}} -->
+    </div>
+    <div>
+        <div>Your last moves:</div>
+        <app-move-preview *ngFor="let move of moves" [move]="move"></app-move-preview>
+    </div>
+</div>

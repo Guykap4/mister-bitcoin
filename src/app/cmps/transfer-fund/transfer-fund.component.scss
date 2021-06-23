@@ -1,0 +1,22 @@
+.transfer-funds {
+    background-color: #EEEEEE;
+    padding: 15px;
+    font-size: 22px;
+
+    .transfer {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+    }
+
+    button {
+        background-color: rgb(27, 27, 68);
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+        border-radius: 30px;
+        color: #EEEEEE;
+        cursor: pointer;
+        border: none;
+    }
+}

@@ -1,0 +1,81 @@
+.home-team {
+    height: 745px;
+    position: relative;
+    background-color: #004047;
+    padding-top: 150px;
+    font-family: Livvic;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    .img4 {
+        position: absolute;
+        width: 150px;
+        top: 0;
+        left: 0;
+    }
+
+    .img5 {
+        position: absolute;
+        width: 200px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .title {
+        width: 940px;
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 95px;
+
+
+        span {
+            color: #79C8C7;
+        }
+    }
+
+    .card-container {
+        display: flex;
+        gap: 60px;
+        position: relative;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 330px;
+            text-align: center;
+
+            .chookaim {
+                width: 60px;
+                height: 60px;
+                position: absolute;
+                top: -30px;
+            }
+
+            .txt1 {
+                font-size: 15px;
+                margin-bottom: 35px;
+                line-height: 1.7;
+                z-index: 1;
+            }
+
+            .txt2 {
+                color: #79C8C7;
+                margin-bottom: 10px;
+            }
+
+            .txt3 {
+                font-size: 13px;
+                margin-bottom: 20px;
+                font-style: italic;
+            }
+
+            .person-img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: 2px solid #C4FFFE;
+            }
+        }
+    }
+}

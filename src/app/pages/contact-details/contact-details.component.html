@@ -1,0 +1,17 @@
+<div *ngIf="contact" class="contact-details">
+    <div class="options">
+        <img src="https://robohash.org/{{contact.name}}.png?set=set5" />
+        <div class="details">
+            <span>{{contact.name}}</span>
+            <span>{{contact.phone}}</span>
+            <span>{{contact.email}}</span>
+            <div class="actions">
+                <button (click)="onBack()">Back</button>
+                <button (click)="onEdit()">Edit</button>
+                <button (click)="onDelete()">Delete</button>
+            </div>
+        </div>
+    </div>
+    <app-transfer-fund [contact]="contact"></app-transfer-fund>
+    <app-fund-moves [contact]="contact"></app-fund-moves>
+</div>

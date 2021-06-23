@@ -1,0 +1,28 @@
+header {
+
+    background-color: rgb(63, 80, 97);
+    padding: 1rem;
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+
+    .logo {
+        font-size: 40px;
+        flex: 1;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+
+        span {
+            cursor: pointer;
+
+            &.active {
+                font-weight: bold;
+                color: rgb(240, 202, 33);
+            }
+        }
+    }
+}
